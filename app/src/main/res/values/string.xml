@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="parametererror">parameter error:%s</string>
+    <string name="room_full">Room is full!</string>
+    <string name="room_end">Room is end!</string>
+    <string name="quiz">QUIZ</string>
+    <string name="poll">POLL</string>
+    <string name="quiz_result">Quiz Result</string>
+    <string name="choices">CHOICES</string>
+    <string name="top_performers">TOP PERFORMERS</string>
+    <string name="poll_result">Poll Result</string>
+    <string name="close_caps">CLOSE</string>
+    <string name="agora_submit">SUBMIT</string>
+
+    <string name="agora_incorrect_answer_1">"Oops! that\'s incorrect\nBetter luck next time</string>
+    <string name="agora_incorrect_answer_2">Oh no, that\'s incorrect</string>
+    <string name="agora_incorrect_answer_3">Sorry! incorrect answer.</string>
+
+    <string name="agora_correct_answer_1">Great Going!\nThat\'s correct</string>
+    <string name="agora_correct_answer_2">Wow, that’s correct!</string>
+    <string name="agora_correct_answer_3">You are a champ.\nYou are right</string>
+    <string name="agora_next">Next</string>
+    <string name="agora_poll_feedback">Thank you!\nResponse Submitted Successfully</string>
+    <string name="agora_no_performer">No top performers!</string>
+    <string name="confirm_learinig" translatable="false">CONTINUE LEARNING</string>
+    <string name="stop_learning" translatable="false" >STOP LEARNING</string>
+    <string name="agora_dialog_end_class_confirm_message">Do you want to leave the class?</string>
+
+
+
+</resources>

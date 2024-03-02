@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Custom attribute for AgoraEduVideoGroupComponent  -->
+    <declare-styleable name="AgoraEduVideoGroupComponent">
+        <attr name="videoMode" format="enum">
+            <enum name="Single" value="0" />
+            <enum name="Pair" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="FullscreenAttrs">
+        <attr name="fullscreenBackgroundColor" format="color" />
+        <attr name="fullscreenTextColor" format="color" />
+    </declare-styleable>
+
+</resources>

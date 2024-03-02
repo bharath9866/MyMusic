@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/playMusic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fef7ff">
+
+    <Button
+        android:id="@+id/bPlayMusicBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="@string/back"
+        android:textSize="@dimen/text_14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvSongName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserrat_semibold"
+        android:paddingVertical="@dimen/dimen_30dp"
+        android:text="@string/songName"
+        android:textSize="@dimen/text_24sp"
+        app:layout_constraintBottom_toTopOf="@id/ivAlbumImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bPlayMusicBack" />
+
+    <ImageView
+        android:id="@+id/ivAlbumImage"
+        android:layout_width="@dimen/dimen_250dp"
+        android:layout_height="@dimen/dimen_250dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvSongName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_album_image"
+        app:layout_constraintBottom_toTopOf="@id/llPlayerController"
+        android:contentDescription="@string/album_image" />
+
+    <LinearLayout
+        android:id="@+id/llPlayerController"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="@dimen/dimen_16dp"
+        android:weightSum="3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivAlbumImage"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <ImageButton
+            android:id="@+id/ibPreviousTrack"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_previous_track" />
+
+        <ImageButton
+            android:id="@+id/ibPlayButton"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:visibility="gone"
+            android:src="@drawable/ic_play_button" />
+
+        <ImageButton
+            android:id="@+id/ibPauseButton"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:visibility="visible"
+            android:src="@drawable/ic_pause_button" />
+
+
+        <ImageButton
+            android:id="@+id/ibNextTrack"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_next_track" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

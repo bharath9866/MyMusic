@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fcrcolorPrimary">#F5F7F8</color>
+    <color name="fcrcolorPrimaryDark">#F5F7F8</color>
+    <color name="fcrcolorAccent">#44A2FC</color>
+    <color name="fcr_class_room_bg">#F9F9FC</color>
+    <color name="fcr_white">#FFFFFF</color>
+    <color name="gray_666666">#666666</color>
+    <color name="black">#FF000000</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_79">#79000000</color>
+    <color name="quiz_poll_primary">#368ACA</color>
+    <color name="quiz_progress_green">#48BC94</color>
+    <color name="quiz_progress_red">#F8B3B3</color>
+    <color name="quiz_poll_secondary">#4D368ACA</color>
+    <color name="student_icon_color">#F16667</color>
+    <color name="fcr_system_background_color">#F9F9FC</color>
+    <color name="transparent">#00000000</color>
+    <color name="fullscreenTextColor">#FF40C4FF</color>
+    <color name="fcr_system_divider_color">#EEEEF7</color>
+    <color name="fcr_text_enabled_color">#357BF6</color>
+    <color name="fcr_system_foreground_color">#FFFFFF</color>
+    <color name="fcr_icon_line_color">#373737</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black_board_color">#263643</color>
+
+    <color name="fcr_red">#ffff0000</color>
+    <color name="fcr_blue">#357BF6</color>
+    <color name="fcr_gray">#BDBDBD</color>
+
+    <color name="aqua_blue">#1279C8</color>
+
+    <color name="fcr_black">#000000</color>
+    <color name="fcr_system_component_color">#FFFFFF</color>
+
+    <color name="fcr_text_contrast_color">#FFFFFF</color>
+    <color name="fcr_text_level1_color">#191919</color>
+    <color name="fcr_text_level2_color">#586376</color>
+    <color name="fcr_text_level3_color">#7B88A0</color>
+    <color name="fcr_text_disabled_color">#BDBDCA</color>
+    <color name="welcome_video_bg">#8014142B</color>
+
+    <color name="poll_text_color">#556575</color>
+
+    <color name="your_status_bar_color">#6750a4</color>
+
+</resources>

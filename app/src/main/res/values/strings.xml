@@ -1,0 +1,16 @@
+<resources>
+    <string name="video">Video</string>
+    <string name="chats">Chats</string>
+    <string name="tool_text">What is capital of india?</string>
+    <string name="agora_chats">Chats</string>
+    <string name="your_video">Video</string>
+    <string name="your_video_">Your Video</string>
+    <string name="fcr_room_loading">Loading...</string>
+    <string name="songName">Shape Of You</string>
+    <string name="albumArtist">Ed Sheeran</string>
+    <string name="play">Play</string>
+    <string name="back">Back</string>
+    <string name="app_name">My Music</string>
+    <string name="album_image">Album Image</string>
+
+</resources>
