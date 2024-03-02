@@ -49,15 +49,15 @@ public class PlayMusic extends AppCompatActivity {
             popBackButton.setOnClickListener(view -> finish());
 
             pauseButton.setOnClickListener(view -> {
-                pauseButton.setVisibility(View.VISIBLE);
-                playButton.setVisibility(View.GONE);
-                Toast.makeText(this, "Playing song", Toast.LENGTH_SHORT).show();
+                pauseButton.setVisibility(View.GONE);
+                playButton.setVisibility(View.VISIBLE);
+                Toast.makeText(this, "Song Paused", Toast.LENGTH_SHORT).show();
             });
 
             playButton.setOnClickListener(view -> {
-                playButton.setVisibility(View.VISIBLE);
-                pauseButton.setVisibility(View.GONE);
-                Toast.makeText(this, "Song Paused", Toast.LENGTH_SHORT).show();
+                playButton.setVisibility(View.GONE);
+                pauseButton.setVisibility(View.VISIBLE);
+                Toast.makeText(this, "Playing song", Toast.LENGTH_SHORT).show();
             });
 
             nextButton.setOnClickListener(view -> {
